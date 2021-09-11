@@ -1,14 +1,15 @@
-package com.mszl.bolg.controller;
+package com.mszl.blog.controller;
 
-import com.mszl.bolg.service.ArticleService;
-import com.mszl.bolg.vo.Result;
-import com.mszl.bolg.vo.params.PageParams;
+import com.mszl.blog.service.ArticleService;
+import com.mszl.blog.service.impl.ArticleServiceImpl;
+import com.mszl.blog.vo.Result;
+import com.mszl.blog.vo.params.PageParams;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-
+//json数据进行交互
 @RestController
 @RequestMapping("/articles")
 public class ArticleController {

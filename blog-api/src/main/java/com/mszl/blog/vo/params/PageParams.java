@@ -1,4 +1,4 @@
-package com.mszl.bolg.vo.params;
+package com.mszl.blog.vo.params;
 
 import lombok.Data;
 

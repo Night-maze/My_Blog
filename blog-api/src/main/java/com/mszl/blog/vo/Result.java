@@ -1,4 +1,4 @@
-package com.mszl.bolg.vo;
+package com.mszl.blog.vo;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

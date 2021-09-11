@@ -1,8 +1,7 @@
-package com.mszl.bolg.dao.pojo;
+package com.mszl.blog.dao.pojo;
 
 import lombok.Data;
 
-import javax.xml.soap.SAAJResult;
 @Data
 public class SysUser {
     private Long id;
@@ -10,7 +9,7 @@ public class SysUser {
     private Integer admin;
     private String avatar;
     private Long createDate;
-    private Integer delete;
+    private Integer deleted;
     private String email;
     private Long lastLogin;
     private String mobilePhoneNumber;

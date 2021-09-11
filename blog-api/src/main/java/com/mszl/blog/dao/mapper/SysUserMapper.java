@@ -1,7 +1,7 @@
-package com.mszl.bolg.dao.mapper;
+package com.mszl.blog.dao.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import com.mszl.bolg.dao.pojo.SysUser;
+import com.mszl.blog.dao.pojo.SysUser;
 
 public interface SysUserMapper extends BaseMapper<SysUser> {
 

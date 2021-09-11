@@ -1,4 +1,4 @@
-package com.mszl.bolg.dao.pojo;
+package com.mszl.blog.dao.pojo;
 
 import lombok.Data;
 

@@ -1,7 +1,7 @@
-package com.mszl.bolg.service;
+package com.mszl.blog.service;
 
-import com.mszl.bolg.vo.Result;
-import com.mszl.bolg.vo.params.PageParams;
+import com.mszl.blog.vo.Result;
+import com.mszl.blog.vo.params.PageParams;
 
 public interface ArticleService {
     /**
